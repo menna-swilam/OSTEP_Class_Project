@@ -21,11 +21,11 @@ int main(int argc, char *argv[]) {
       exit(1);
     }
 														
-	int char_count;
-    char cur_char;													//&char_count , &cur_char − This is the pointer to a block of memory with a minimum size of size*nmemb bytes.
-																	//size (int size),(char size) − This is the size in bytes of each element to be read.
-																	//The total number of elements successfully read are returned as a size_t object.
-																	
+    int char_count;
+    char cur_char;									//&char_count , &cur_char − This is the pointer to a block of memory with a minimum size of size*nmemb bytes.
+											//size (int size),(char size) − This is the size in bytes of each element to be read.
+											//The total number of elements successfully read are returned as a size_t object.
+
     while (((int) fread(&char_count, sizeof (int), 1, fp)) > 0) {
       fread(&cur_char, sizeof (char), 1, fp);  						// return the character. 
 
