@@ -8,16 +8,6 @@ The `wcat` reads data from the file and gives their content as output to the sta
 
 It is used to display the contents of one or multiple text files, combine files by appending one file’s contents to the end of another file, and create new files.
 
-> Syntax
-
-Before going into how to use the `wcat` command, let’s start by reviewing the basic code syntax.
-
-```c
-//code goes here
-```
-
-
-
 > Usage
 
 Firstly we compile the code file as follows

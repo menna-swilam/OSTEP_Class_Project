@@ -14,16 +14,6 @@ prompet> ./wgrep "Term To Search For" filename
 
 wgrep will display every line where there is a match of the term that you are searching for.
 
-> Syntax
-
-Before going into how to use the `wgrep` command, let’s start by reviewing the basic code syntax.
-
-```c
-//code goes here
-```
-
-
-
 > Usage
 
 Firstly we compile the code file as follows
