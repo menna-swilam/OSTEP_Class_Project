@@ -38,15 +38,15 @@ int main(int argc, char *argv[]) {
         char_count++;
         prev_char = cur_char;
       } else {                                			 // if previous character is not similar to current character
-        write_compressed(&char_count, &prev_char);       // compresse the previous character 
-        char_count = 1;                            		 // increment for the current new character
+        write_compressed(&char_count, &prev_char);       // compress the previous character 
+        char_count = 1;                            		 // increment the current new character
         prev_char = cur_char;
       }
     }
     fclose(fp);
   }
 
-  write_compressed(&char_count, &prev_char);             // compresse the last character 
+  write_compressed(&char_count, &prev_char);             // compress the last character 
 
   return 0;
 }
